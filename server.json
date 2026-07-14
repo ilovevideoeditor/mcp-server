@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ilovevideoeditor/mcp-server",
+  "description": "Render videos with iLoveVideoEditor: list motion-design templates, fill variables, submit JSON-to-MP4 renders, poll job status, get download URLs.",
+  "repository": {
+    "url": "https://github.com/ilovevideoeditor/mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ilovevideoeditor/mcp-server",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "iLoveVideoEditor API key (generate at ilovevideoeditor.com/dashboard/account/api)",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "VF_API_KEY"
+        },
+        {
+          "description": "API base URL override",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "VF_API_BASE_URL"
+        }
+      ]
+    }
+  ]
+}

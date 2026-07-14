@@ -1,6 +1,7 @@
 {
   "name": "@ilovevideoeditor/mcp-server",
   "version": "1.0.0",
+  "mcpName": "io.github.ilovevideoeditor/mcp-server",
   "description": "MCP Server for iLoveVideoEditor — exposes video rendering tools to AI agents",
   "license": "Apache-2.0",
   "repository": {
