@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.ilovevideoeditor/mcp-server",
+  "name": "com.ilovevideoeditor/mcp-server",
   "description": "Render videos from JSON with motion-design templates, effects and batch rendering",
   "repository": {
     "url": "https://github.com/ilovevideoeditor/mcp-server",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@ilovevideoeditor/mcp-server",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "transport": {
         "type": "stdio"
       },
